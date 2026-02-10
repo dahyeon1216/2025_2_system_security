@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\uBC31\uB2E4\uD604\\source\\repos\\Final\\Assignment_Final_Defense\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F5F54A-E6F2-472A-B144-F7E1C914C6F7}|Defense.vcxproj|C:\\Users\\\uBC31\uB2E4\uD604\\source\\repos\\Final\\Assignment_Final_Defense\\Defense.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D2F5F54A-E6F2-472A-B144-F7E1C914C6F7}|Defense.vcxproj|solutionrelative:Defense.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Defense.cpp",
+              "DocumentMoniker": "C:\\Users\\\uBC31\uB2E4\uD604\\source\\repos\\Final\\Assignment_Final_Defense\\Defense.cpp",
+              "RelativeDocumentMoniker": "Defense.cpp",
+              "ToolTip": "C:\\Users\\\uBC31\uB2E4\uD604\\source\\repos\\Final\\Assignment_Final_Defense\\Defense.cpp",
+              "RelativeToolTip": "Defense.cpp",
+              "ViewState": "AgIAAOAEAAAAAAAAAAAAABAFAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-15T07:08:18.949Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

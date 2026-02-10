@@ -1,0 +1,11 @@
+*.o
+*.out
+*.exe
+*.log
+*.tmp
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
+
