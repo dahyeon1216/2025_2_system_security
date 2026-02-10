@@ -7,5 +7,27 @@ __pycache__/
 *.pyc
 .vscode/
 .idea/
+
+
+# Visual Studio
+.vs/
+*.ipch
+*.pch
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.log
+*.suo
+*.user
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+Debug/
+Release/
+
+# macOS
 .DS_Store
 
