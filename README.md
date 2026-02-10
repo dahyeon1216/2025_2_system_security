@@ -25,21 +25,35 @@ Windows 내부 구조(PE, PEB, IAT, TLS 등)를 기반으로 다음과 같은 �
 
 ```
 .
-├─ repos/
-│  ├─ Assignment_5/        # Explicit Linking, DLL, IAT 관련 실습
-│  ├─ Assignment_6/        # DLL Injection / Process Memory 실습
-│  ├─ Assignment_7/        # Anti-Debugging (PEB, Watchdog, TLS)
-│  ├─ Assignment_8/        # Launcher / Client 구조 (Debugger 선점)
-│  └─ Final/
-│     ├─ Assignment_Final_Attack/   # 공격자 프로그램
-│     └─ Assignment_Final_Defense/  # 방어자 프로그램
-│
-├─ .gitignore
-└─ README.md
+├── Assignment_4 # PE 구조 분석, Import Table, 링킹 기초
+├── Assignment_5 # 명시적 링킹 / DLL 동적 로딩 실습
+├── Assignment_6 # 프로세스 메모리 접근 (WriteProcessMemory 등)
+├── Assignment_7 # Anti-Debugging (PEB, TLS Callback, Watchdog)
+├── Assignment_8 # Launcher-Client 디버깅 보호 구조
+├── Final
+│ ├── Assignment_Final_Attack # 공격자 프로그램 (Hook / Injection)
+│ ├── Assignment_Final_Attack_DLL # 공격용 DLL
+│ └── Assignment_Final_Defense # 방어자 프로그램 (Anti-Debugging)
+└── test # 수업 중 실습 및 개인 학습 코드 모음
 ```
 
 > 각 과제 디렉토리에는 **소스 코드, 실험 결과, 스크린샷, 과제 설명**이 함께 포함되어 있습니다.
-> 
+
+---
+
+## 🧪 Assignments Overview
+
+| 구분 | 주제 | 핵심 내용 |
+| --- | --- | --- |
+| Assignment 4 | PE 기초 | PE Header, Import Table, IAT 구조 |
+| Assignment 5 | 링킹 | Explicit Linking, DLL 교체 실험 |
+| Assignment 6 | 메모리 | VirtualAllocEx, WriteProcessMemory |
+| Assignment 7 | Anti-Debugging | PEB, BeingDebugged, TLS Callback |
+| Assignment 8 | Debug Protection | Launcher–Client 구조 |
+| Final | 종합 | 공격자 vs 방어자 시스템 |
+
+> 각 과제 폴더에는 **개별 [README.md](http://readme.md/)** 가 포함되어 있으며, 과제 목표, 구현 방식, 실험 결과를 정리하였습니다.
+ 
 
 ---
 
