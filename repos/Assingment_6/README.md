@@ -148,3 +148,8 @@ ReadProcessMemory(hProcess, lpAddr, verify,strlen(buf) +1, &bytesRead);printf("C
 | --- | --- | --- |
 | `printf("%s", lpAddr)` | ❌ | 원격 프로세스 주소를 현재 프로세스에서 역참조 시도 → 접근 위반/오동작 |
 | `ReadProcessMemory()` 후 출력 | ✅ | OS가 원격 프로세스 메모리를 읽어 로컬 버퍼로 복사해줌 |
+
+---
+
+## 📝 Full Notes
+https://delicate-dish-b60.notion.site/Thinkings-2b6a4c0c4272800e8259e5e5201bec8e?source=copy_link
